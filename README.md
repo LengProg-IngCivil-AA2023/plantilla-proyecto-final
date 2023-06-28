@@ -1,5 +1,5 @@
 # Nombre de aplicación
-> Proyecto Final - PYTHON INTERMEDIO C46833 OCT. 2022 - FEB. 2023
+> Proyecto Final - OCT. 2022 - FEB. 2023
 
 ## Objetivos de aprendizaje
 - Aplicar nuevas habilidades a un problema del mundo real
@@ -11,27 +11,21 @@
 - git
 - github (utilizar gitignore para proyectos python)
 - python 3 
-- librerías (pandas, matplotlib, numpy, sympy, etc.)
-- pyqt5 
-- QT Designer
+- librerías (numpy, pandas, matplotlib, etc.)
   
 
 ## Organización de carpetas
-> TODO: Actualizar, revisar uso de comando [tree](https://stackoverflow.com/questions/23989232/is-there-a-way-to-represent-a-directory-tree-in-a-github-readme-md) y [documento](https://github.com/kriasoft/Folder-Structure-Conventions/blob/master/README.md) de referencia
+> TODO: Actualizar
 
 ```
-├── main.py                 # Archivo principal
+├── main.ipynb              # Archivo principal
 ├── src                     # Archivos fuentes
-│   ├── data.py             # Pre proceso de datos
+│   ├── matematicas.py      # Modulo de ejemplo
 │   ├── ...                 # 
-│   └── ...                 # Unit tests
-├── gui                     # Archivos de GUI
-│   ├── UI_window.ui        # Diseño de ventana principal
-│   ├── ....                # ...
-│   └──                     # ...
-├── data                    # Datos
-│   ├── covid_2022.csv      # Datos de covid
-│   ├── ....                # ...
+│   └── ...                 # 
+├── data                    # Datos (opcional)
+│   ├── covid.csv           # Datos de covid
+│   ├── puentes.csv         # Datos de puentes
 │   └──                     # ...
 └── ...
 ```
